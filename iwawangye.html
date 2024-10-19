@@ -1,0 +1,170 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+li {
+    list-style: none;
+}
+
+body {
+    font: 14px/1.5 "Microsoft Yahei", "Hiragino Sans GB", "Heiti SC", "WenQuanYi Micro Hei", sans-serif;
+    color: #333;
+}
+
+a {
+    color: #333;
+    text-decoration: none;
+}
+
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    /* Set font */
+
+    background: linear-gradient(to right, #65C8F7, #83A5FC);
+    /* First gradient background */
+    background: linear-gradient(to right, #FFC0CB, #D8BFD8);
+    /* background: #FFC0CB; */
+    /* Second gradient background */
+
+    color: #333;
+    /* Default text color */
+}
+
+p {
+    font-size: 16px;
+}
+
+/* Header styles */
+header {
+    position: fixed;
+    /* Fix the header to the top */
+    width: 100%;
+    /* Full width */
+    text-align: center;
+    padding: 50px 20px;
+    /* Increase padding */
+    background-color: rgba(255, 255, 255, 0.85);
+    /* Semi-transparent white background */
+    box-shadow: 0 2px 15px rgba(0, 0, 0, 0.2);
+    /* Add shadow */
+}
+
+/* Container and overlay styles */
+.container {
+    position: relative;
+    height: 100vh;
+    /* Full viewport height */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.overlay {
+    background: rgba(255, 255, 255, 0.9);
+    /* Semi-transparent white background */
+    padding: 40px;
+    /* Padding */
+    border-radius: 20px;
+    /* Rounded corners */
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.3);
+    /* Shadow effect */
+    text-align: center;
+    /* Center text */
+    min-width: 50%;
+}
+
+/* Title styles */
+.overlay h2 {
+    margin-bottom: 20px;
+    /* Bottom margin for title */
+    font-size: 2.5em;
+    /* Increased font size */
+    color: #007BFF;
+    /* Title color */
+}
+
+.content {
+    text-align: left;
+    /* Align content to the left */
+}
+
+.content label {
+    font-size: 20px;
+}
+
+/* Input styles */
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+select,
+textarea {
+    width: calc(100% - 24px);
+    /* Full width */
+    padding: 12px;
+    /* Padding */
+    margin-bottom: 20px;
+    /* Bottom margin */
+    border: 1px solid #ccc;
+    /* Border color */
+    border-radius: 5px;
+    /* Rounded corners */
+    font-size: 1em;
+    /* Font size */
+    transition: border-color 0.3s;
+    /* Add transition effect */
+    display: block;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="tel"]:focus,
+select:focus,
+textarea:focus {
+    border: 2px solid #FFC0CB;
+    outline: none;
+    /* Change border color on focus */
+}
+
+/* Submit button styles */
+button {
+    background-color: #007BFF;
+    /* Button background color */
+    color: white;
+    /* Button text color */
+    border: none;
+    /* No border */
+    padding: 12px 20px;
+    /* Button padding */
+    border-radius: 5px;
+    /* Rounded corners */
+    cursor: pointer;
+    /* Pointer on hover */
+    font-size: 1.2em;
+    /* Font size */
+    transition: background-color 0.3s, transform 0.3s;
+    /* Background color and scale transition effects */
+}
+
+button:hover {
+    background-color: #0056b3;
+    /* Background color on hover */
+    transform: scale(1.05);
+    /* Slightly scale up on hover */
+}
+
+/* Footer styles */
+footer {
+    text-align: center;
+    /* Center align footer text */
+    margin-top: 50px;
+    /* Top margin */
+    padding: 20px 0;
+    /* Vertical padding */
+    background-color: rgba(255, 255, 255, 0.9);
+    /* Footer background color */
+    width: 100%;
+    /* Full width */
+}
