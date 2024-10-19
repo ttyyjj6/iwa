@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="./css/Contact Us.css"> <!-- Link to CSS file -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <!-- Link to Font Awesome icon library -->
+</head>
+
+<body>
+    <header>
+        <h1>Welcome to Our Contact Page</h1> <!-- Page title -->
+    </header>
+    <div class="container">
+        <div class="overlay"> <!-- Overlay area -->
+            <h2>Contact Us</h2> <!-- Form title -->
+            <div class="content">
+                <p>Please fill in the information:</p> <!-- Prompt user to fill in information -->
+                <form action="#" method="post"> <!-- Form -->
+                    <label for="name"><i class="fas fa-user"></i> Name:</label>
+                    <input type="text" id="name" name="name" required pattern="[A-Za-z]*"/>
+                    <!-- Name input field, required -->
+
+                    <label for="email"><i class="fas fa-envelope"></i> Email:</label>
+                    <input type="email" id="email" name="email" required/>
+                    <!-- Email input field, required -->
+
+                    <label for="phone"><i class="fas fa-phone"></i> Phone Number:</label>
+                    <input type="tel" id="phone" name="phone" required />
+                    <!-- Phone number input field, required -->
+
+                    <label for="subject"><i class="fas fa-list-alt"></i> Gender:</label>
+                    <select id="subject" name="subject" required>
+                        <option value=""></option> <!-- Default option for dropdown menu -->
+                        <option value="man">man</option>
+                        <option value="woman">woman</option>
+                    </select>
+                    <!-- Gender selection dropdown, required -->
+
+                    <label for="message"><i class="fas fa-comment-dots"></i> Message:</label>
+                    <textarea id="message" name="message" rows="5" required></textarea>
+                    <!-- Message text area, required -->
+            </div>
+            <button type="submit">Submit</button> <!-- Submit button -->
+            </form>
+
+        </div>
+    </div>
+    <footer>
+        <p>&copy; 2024 Test for Project </p> <!-- Footer information -->
+    </footer>
+</body>
+
+</html>
